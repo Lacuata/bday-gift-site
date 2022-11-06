@@ -1,0 +1,149 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+#img{
+border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #EFB0C9;
+}
+
+#yrs {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+margin: 5px 0 10px 0;
+
+}
+#bdate {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+
+}
+.gift-section {
+    margin-top: 50px;
+
+}
+.happy{
+margin-top: 10px;
+
+}
+.hover {
+    margin-top: 0;
+
+}
+.gift-img {
+    background-image: url("img/gift-cover.jpeg");
+    background-position: center;
+background-repeat: no-repeat;
+    background-position: cover;
+width: 200px;
+height: 200px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+
+     
+    border-radius: 10px;
+}
+#gift-img-happy:hover{
+    background-image: url(happy.gif);
+}
+#gift-img-hot:hover{
+    background-image: url(hot.gif);
+    height: 260px;
+width: 300px;
+
+}
+#gift-img-genius:hover{
+    background-image: url(genius.gif);    
+    height: 150px;
+    width: 220px;
+
+}
+
+#gift-img-badass:hover {
+    background-image: url(badass.gif);
+    height: 200px;
+    width: 200px;
+
+}
+#gift-img-cheers{
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(cheers.gif);
+    height: 200px;
+    width: 200px;
+
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color:  #ffffff;
+}
+
+a{
+    color: #fff ;
+}
+
+    /* width: 400px;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    height: 400px;
+background:url(gift-cover.jpg); 
+}
+
+
+
+/* Lab */
+/* .container {
+    border: 8px solid #016a26;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    padding: 15px;
+    font-size: 20px;
+    border:2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+} */
+
+/* Hover pseudo clas */
+/* div {
+    text-align: center;
+    color: #fff;    
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div:hover {
+   background-image: url(google.png);
+} */
